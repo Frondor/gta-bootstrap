@@ -167,11 +167,12 @@ footer h2 {
 	margin: 0;
 }
 .bottom1, .bottom2, .bottom3, .bottom4 {
-	background: #0F0F0F;
-	max-width: 220px;
+	background: url('../img/main-bg.png') !important;
+	/*max-width: 220px;
+	margin: 10px;*/
 	padding: 15px;
-	margin: 10px;
 	text-align: center;
+	width: 100%;
 }
 footer #creditos {
 	text-align: center;
