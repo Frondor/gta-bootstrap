@@ -1,0 +1,182 @@
+@font-face {
+ font-family: "GTA";
+ src: local("GTA"), url("../fonts/pricedown_bl.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: "GTA";
+ src: local("GTA"), url("../fonts/pricedown_bl.ttf") /* TTF file for CSS3 browsers */
+}
+body {
+	background: url("http://gamer-templates.lima-city.de/webspell/gta5-template/images/back.jpg") no-repeat fixed center top #000;
+}
+a {
+	color: #F1D49A;
+}
+.gtated {
+	font-family: 'GTA',arial,sans-serif;
+}
+.gtated:hover {	
+	text-shadow: 0 0 5px #FFF;
+	color: #000;
+}
+.main-container {
+	background: url('../img/main-bg.png');
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	margin: 15px auto;	
+	box-shadow: 0px 0px 10px 10px rgba(0, 255, 255, 0.14);
+	overflow: hidden;
+}
+.module, section.principal {
+	background-image: url('../img/main-bg.png');
+	/*background: #000;*/
+	border-radius: 10px;
+	border: 2px solid #D7D7D7;	
+	padding: 0 10px;
+	margin: 10px 0;
+	overflow: hidden;
+}
+.module h2 {
+	border-bottom: 1px solid;
+	color: #F3D686;
+	font: 250% 'GTA',arial,sans-serif;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	letter-spacing: 0;
+	text-shadow: 0 0 8px #F00;
+}
+.module span {
+	display:block;
+	color: #CCC;
+	font: 14px 'Tahoma', sans-serif;
+	padding: 10px 0;
+	text-align: left;
+	letter-spacing: 0;
+}
+
+/* LOGIN MODULE */
+
+.login {	
+	background: url('../img/main-bg.png') !important;
+	border-radius: 10px;
+	border: 2px solid #FFF;	
+	padding:10px 0;
+	margin-top: 1%;
+	color: #DCDEB1;
+}
+
+/* MAIN NAV */
+
+.navbar-static-top {
+	background: url('../img/mr.weed2.png') no-repeat rgba(0, 0, 0, 0.66);
+	background-position: right -17px;
+}
+.navbar-static-top a {
+color: #69D1FF;
+}
+.navbar-inverse {	
+	box-shadow: inset 0 -23px 15px rgba(0, 81, 255, 0.14);
+	margin: 0 -15px;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-o-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+}
+.dropdown-menu.navbar-inverse {
+	background: rgba(0, 0, 0, 0.66);
+	margin: auto;
+	color: #DDD;
+	border-width: 0px 1px 1px 1px;
+	border-color: #203049;
+}
+.dropdown-menu.navbar-inverse a {
+	color: #69D1FF;
+}
+.dropdown-menu.navbar-inverse>li>a:hover, .dropdown-menu.navbar-inverse>li>a:focus {
+color: #00E2FF;
+text-decoration: none;
+background-color: #000;
+box-shadow: 0 0 5px 2px #053462 inset;
+}
+
+/* BUTTONS  */
+
+.login input[type=text], .login button, .login a#register {
+	width: 100% !important;
+}
+.login .form-inline .form-control {
+	width: 100%;
+}
+.login button, .login a#register, #registrationForm .register-button {
+	background: #000;
+	color: #DDD;
+	font-family: 'GTA',arial,sans-serif;
+	font-size: 130%;
+	border:1px solid #DDD;
+	-webkit-border-radius: 13px;
+	-moz-border-radius: 13px;
+	-o-border-radius: 13px;
+	border-radius: 13px;
+}
+.login button:hover, .login a#register:hover, #registrationForm .register-button:hover {
+	background: #222;
+	text-shadow: 0 0 10px #FFF;
+	color: #000;
+	border-color: #000;
+}
+button:focus {outline:none !important;}
+.login button:active, .login a#register:active, #registrationForm .register-button:active {
+	outline: none;
+	position:relative;
+	top:2px;
+}
+
+/* REGISTRATION MODAL */
+
+#registrationForm .modal-content {	
+	background: url('../img/main-bg.png') !important;
+	border: 2px solid #343333;
+}
+#registrationForm .modal-header {
+	border-bottom: 1px solid #000;
+}
+#registrationForm .modal-body {
+	border-bottom: 1px solid #343333;
+	border-top: 1px solid #343333;
+}
+#registrationForm .modal-footer {
+	border-top: 1px solid #000;	
+}
+#registrationForm h4.modal-title {	
+	color: #F3D686;
+	font: 250% 'GTA',arial,sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+	background: url('../img/main-bg.png') !important;
+	color: #D0BE92;
+	position: relative;
+	text-shadow: 1px 1px #000;
+}
+footer h2 {
+	margin: 0;
+}
+.bottom1, .bottom2, .bottom3, .bottom4 {
+	background: #0F0F0F;
+	max-width: 220px;
+	padding: 15px;
+	margin: 10px;
+	text-align: center;
+}
+footer #creditos {
+	text-align: center;
+	font: 8pt Arial;
+	padding: 3px;
+	color: #494949;
+	background: url('../img/main-bg.png') !important;
+}
